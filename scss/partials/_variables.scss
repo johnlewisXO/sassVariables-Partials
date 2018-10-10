@@ -6,6 +6,12 @@ $blue : blue;
 $red : red;
 $white : white;
 $black : #000;
+$link-hover: green;
+$link-active: black;
+$link-visited: blue;
+$link-clicked: green;
+$bodyBG-color :beige;
+
 
 
 // functional color variables
@@ -17,4 +23,8 @@ $sec-color : $red;
 
 $color-text-base : $darkgrey;
 $color-text-dark : $black;
-$color-text-light : $grey
+$color-text-light : $grey;
+$color-text-hover : $link-hover;
+$color-text-active : $link-active;
+$color-text-visited : $link-visited;
+$color-text-clicked : $link-clicked;

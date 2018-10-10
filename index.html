@@ -1,17 +1,73 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Sass Variables and Partials</title>
-    <link rel="stylesheet" href="css/main.css">
-  </head>
-  <body>
+<html>
 
-    <h1>This is my first sass project on variables and partials</h1><br>
+    <head>
+        <title>Newlands Forest</title>
+        <link rel="stylesheet" href="css/main.css">
+        <meta name="viewport" content="width=device-width">
+    </head>
 
-    <h2>Here I will learn about all the integration of sass/scss elements and using them to make my web development experience easier.</h2>
+    <body>
+        <header id="top" class="main-header">
+            <span class="main-title">Journey through the Newlands Forest</span>
+            <h1 class="main-heading">Natural Springs, Cape Town</h1>
+            <img class="arrow" src="images/arrow.png" alt="Down arrow">
+        </header>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="primary-content">
+            <p class="intro">
+                Newlands Forest is one of the most breathtaking attractions located in Cape Town. It's home to a number
+                of ski resorts, summer outdoor recreation, and tourist attractions.
+            </p>
+            <a class="callout" href="#more">Find out more</a>
 
-  </body>
+            <div class="wildlife">
+                <h2>Check out all the Wildlife</h2>
+                <p>
+                    As spawning season approaches, the fish acquire a humpback and protuberant jaw. After spawning,
+                    they die and their carcasses provide a feast for gatherings of<a href="#cape-cobras">cape cobras</a>,
+                   <a href="#dassies">dassies</a>, and<a href="#eagles">bald eagles</a>.
+                </p>
+            </div><!-- End .wildlife -->
+
+            <a class="callout" href="#wildlife">See the Wildlife</a>
+        </div><!-- End .primary-content -->
+
+        <div class="secondary-content">
+            <div class="resorts">
+                <img src="images/resort.jpg" alt="Resort">
+                <h3>From Tents to Resorts</h3>
+                <p>
+                    Newlands Forest is full of wonderful places to stay. You have the ability to sleep in the outdoors
+                    in a tent, or relax like a king at a five star resort. Here are our top three resorts:
+                </p>
+                <ul>
+                    <li><a href="#hotels">Newlands Forest Resort Hotel</a></li>
+                    <li><a href="#resorts">South Newlands Forest Resorts</a></li>
+                    <li><a href="#lodging">Rhodes Memorial Resort Lodging</a></li>
+                </ul>
+            </div>
+
+            <div class="tips">
+                <img src="images/landscape.jpg" alt="Mountain Landscape">
+                <h3>Pack Accordingly</h3>
+                <p>
+                    One of most important things when it comes to traveling through the great outdoors is packing
+                    accordingly. Here are a few tips:
+                </p>
+                <ol>
+                    <li>Bring layers of clothing</li>
+                    <li>Pack sunscreen</li>
+                    <li>Carry extra water just in case</li>
+                    <li>Pack light</li>
+                </ol>
+            </div>
+        </div><!-- End .secondary-content -->
+
+        <footer class="main-footer">
+            <p>All rights reserved to the province of <a href="#">Cape Town</a>.</p>
+            <a href="#top">Back to top &raquo;</a>
+        </footer>
+    </body>
+
 </html>

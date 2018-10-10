@@ -1,3 +1,13 @@
+* {
+  box-sizing: border-box;
+  text-align: left; }
+
+body {
+  color: darkgrey;
+  margin: 0;
+  font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: beige; }
+
 h1 {
   font-size: 24px;
   color: #000;
@@ -11,6 +21,55 @@ h2 {
 
 p {
   font-size: 18px;
-  color: #000; }
+  color: #000;
+  word-spacing: 0.3em; }
+
+ul {
+  text-align: center; }
+  ul li {
+    list-style-type: none;
+    list-style-position: inside; }
+
+html {
+  scroll-behavior: smooth; }
+
+* {
+  margin: 40px 50px 40px 50px; }
+
+#top h1 {
+  color: grey;
+  line-height: 1.3; }
+
+.main-title {
+  color: darkgrey;
+  font-size: 8em; }
+
+a:hover {
+  color: green; }
+a:active {
+  color: black; }
+a:visited {
+  color: blue; }
+a:clicked {
+  color: green; }
+
+#top img {
+  height: 15em;
+  width: 15em; }
+
+.wildlife {
+  margin: 40px 30px 40px 30px; }
+
+.callout {
+  text-align: center; }
+
+@media screen and (max-width: 480px) {
+  * {
+    width: 50%;
+    float: none; } }
+@media screen and (max-width: 1034px) {
+  * {
+    width: 90%;
+    float: none; } }
 
 /*# sourceMappingURL=main.css.map */
